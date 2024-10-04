@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    width: 100%;
+}
+
+.blue, .green, .red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33.33%;
+}
+
+.blue {
+    background-color: #00B5E2;
+}
+
+.red {
+    background-color: #EF3340;
+}
+
+.green {
+    background-color: #509E2F;
+}
+
+.whitecircle1 {
+    position: absolute;
+    background-color: white;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.star {
+    background-color: white;
+    position: absolute;
+    height: 16vh;
+    width: 16vh;
+    z-index: 1;
+    border-radius: 50%;
+    translate: 150px;
+    clip-path: polygon(0% 50%, 25% 40%, 15% 15%,
+            40% 25%, 50% 0%, 60% 25%,
+            85% 15%, 75% 40%, 100% 50%,
+            75% 60%, 85% 85%, 60% 75%,
+            50% 100%, 40% 75%, 15% 85%,
+            25% 60%);
+}
+
+.redcircle {
+    position: relative;
+    background-color: #EF3340;
+    left: 3.33vh;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+}
