@@ -27,6 +27,7 @@
     background-color: #509E2F;
 }
 
+
 .whitecircle1 {
     position: absolute;
     background-color: white;
@@ -42,7 +43,7 @@
     width: 16vh;
     z-index: 1;
     border-radius: 50%;
-    translate: 150px;
+    transform: translate(16vh);
     clip-path: polygon(0% 50%, 25% 40%, 15% 15%,
             40% 25%, 50% 0%, 60% 25%,
             85% 15%, 75% 40%, 100% 50%,
